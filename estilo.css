@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> 
+body{
+
+padding: 0px;
+margin:auto;
+background-color: #F47920;
+}
+
+#header {
+margin:auto;
+width:3000px;
+font-family: Angsana New, Angsana New bold;
+}
+
+ul, ol {
+	list-style:none;
+
+}
+.nav li a {
+	background-color: #F47920;
+	color: #fff;
+	width: 111px;
+	text-decoration: none;
+	padding: 10px 35px;
+	display:block;
+	font-family: Angsana New bold; 
+
+}
+.nav li a:hover {
+background-color:#434343;
+}
+.nav > li {
+float:left;
+}
+.nav li ul{
+display:none;
+position:absolute;
+min-width:104px;
+}
+.nav li:hover> ul{
+display:block;
+}
+h1 {
+
+position: absolute;
+
+top: 100px;
+
+left: 520px;
+
+width: 100%;
+
+}
+h2{
+
+position: absolute;
+
+top: 370px;
+
+left: 50px;
+
+width: 100%;
+color: #005883; 
+font-family: Angsana New, Angsana New bold;
+
+}
+
+
+article {
+position: absolute;
+top: 370px;
+left:40px;
+width:100%;
+
+}
+
